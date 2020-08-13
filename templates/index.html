@@ -1,0 +1,25 @@
+
+{% extends "layout.html" %}
+{% block body %}
+
+  <div class="row" style="padding-bottom: 100px">
+    
+    <div class="col-md-6">
+                <div class="widget-area no-padding blank">
+                <div class="status-upload">
+                  <form action="{{ url_for('predict')}}" method="post">
+                    <textarea placeholder="আপনার রিভিউটি বাংলায় লিখুন ।!" name = 'comment'></textarea>
+                    
+                    <button type="submit" class="btn btn-success green" value="predict"><i class="fa fa-share"></i> Predict</button>
+                  </form>
+                </div><!-- Status Upload  -->
+              </div><!-- Widget Area -->
+            </div>
+        
+    </div>
+</div>
+
+{% endblock %} 
+
+  
+
