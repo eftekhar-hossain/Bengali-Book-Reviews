@@ -17,9 +17,10 @@
 - Model Deployment
 
 ## Dataset Preparation
-`1k` Bengali book reviews was collected and then cleaned the data for removing unneccessary symbols, tokens and numbers.
+`1k` Bengali book reviews was collected and then cleaned the data by removing unneccessary symbols, tokens and numbers from the texts.
 
 Some sample reviews from the dataset: 
+![alt text](https://github.com/eftekhar13/Bengali-Book-Reviews/tree/master/images/cleaned_sample.PNG)
 
 
 
