@@ -1,5 +1,5 @@
 ## Polarity Detection of Bengali Book Reviews Using Machine Learning: Project Overview
-- Created a tool that can detect the sentiment polarity (either positive or negative) of Book reviews written in Bengali Text. 
+- Created a tool that can detect the sentiment polarity (either **positive or negative**) of Book reviews written in Bengali Text. 
 - Collected `1k` book reviews from different online book shops as well as social media groups. Among these reviews `528` reviews are labelled as positve and `472` reviews are labelled as negative sentiment.
 - Use a custom *stopword list* for removing some words that have not much impact on classification.
 - Extract `Unigram, Bigram and Trigram` features from the cleaned Text and use the `TF-idf vectorizer` as a feature extraction technique.
@@ -21,6 +21,18 @@
 
 **Some sample reviews from the dataset:**
 ![](images/cleaned_sample.PNG)
+
+## Summary of the dataset
+
+Dataset summary includes various information about the dataset such as total number of words in each class, unique words in each class and length distribution of the reviews.
+
+**Statistics about the dataset:**
+
+![](images/data_summary.PNG)
+
+**Length Distribution:** The length distribution plot shows that most of the reviews length are between `20 to 50`.
+
+![](images/length_dist.PNG)
 
 
 
