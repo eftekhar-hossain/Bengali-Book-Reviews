@@ -59,18 +59,18 @@ Tf-idf values of the gram features used for the classification. The calculated f
 
 ## Model Building and Evaluation
 
-The performance of the different machine learning algorithms on numerical measues. The table provides the performance information only for *unigram features*. We obtained best outcome for `Multinomial Naive Bayes Algorithm` which provides correspondingly **`93%` accuracy and F1-score value**.    
+The performance of the different machine learning algorithms is evaluated using various numerical measures. The table provides the performance information only for *unigram features*. We obtained best outcome for `Multinomial Naive Bayes Algorithm` which provides correspondingly **`93%` accuracy and F1-score value**.    
 
 ![](images/unigram_performance.PNG)
 
-**The performance on the graphical measures are:**  In this evaluation `Multinomial Naive Bayes Algorithm` provides outstanding performance.
+**The performance on the graphical measures are:**  In this evaluation `Multinomial Naive Bayes Algorithm` provides outstanding performance in both AUC and AP scores.
 
 
 <img src="images/roc_uni.PNG"/>
 <img src="images/pr_curve.PNG"/> 
 
 
-***Thus, our selected ML model is `Multinomial Naive Bayes Classifer`*** 
+***Thus, The suitable ML model for this task is `Multinomial Naive Bayes Classifer`*** 
 
 
 
